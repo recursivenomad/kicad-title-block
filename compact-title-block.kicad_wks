@@ -1,0 +1,220 @@
+(kicad_wks
+	(version 20231118)
+	(generator "pl_editor")
+	(generator_version "8.0")
+	(setup
+		(textsize 1.5 1.5)
+		(linewidth 0.15)
+		(textlinewidth 0.15)
+		(left_margin 10)
+		(right_margin 10)
+		(top_margin 10)
+		(bottom_margin 10)
+	)
+	(rect
+		(name "")
+		(start 0 0 ltcorner)
+		(end 0 0)
+		(comment "Outer border")
+	)
+	(rect
+		(name "")
+		(start 2.5 2.5 ltcorner)
+		(end 2.5 2.5)
+		(linewidth 0.3)
+		(comment "Inner border")
+	)
+	(line
+		(name "")
+		(start 50 0.075 ltcorner)
+		(end 50 2.5 ltcorner)
+		(linewidth 0.3)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start 50 0.075 lbcorner)
+		(end 50 2.5 lbcorner)
+		(linewidth 0.3)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start 0.075 50 ltcorner)
+		(end 2.5 50 ltcorner)
+		(linewidth 0.3)
+		(repeat 100)
+		(incry 50)
+	)
+	(line
+		(name "")
+		(start 0.075 50 rtcorner)
+		(end 2.5 50 rtcorner)
+		(linewidth 0.3)
+		(repeat 100)
+		(incry 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 25 1.25 ltcorner)
+		(justify center)
+		(repeat 100)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 25 1.25 lbcorner)
+		(justify center)
+		(repeat 100)
+		(incrx 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 1.25 25 ltcorner)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 1.25 25 rtcorner)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(rect
+		(name "")
+		(start 2.5 2.5)
+		(end 122.5 22)
+		(comment "Title block outline")
+	)
+	(line
+		(name "")
+		(start 122.5 13)
+		(end 2.5 13)
+	)
+	(line
+		(name "")
+		(start 122.5 8.5)
+		(end 2.5 8.5)
+	)
+	(line
+		(name "")
+		(start 122.5 5.5)
+		(end 2.5 5.5)
+	)
+	(line
+		(name "")
+		(start 98.5 8.5)
+		(end 98.5 2.5)
+	)
+	(line
+		(name "")
+		(start 26.5 8.5)
+		(end 26.5 5.5)
+	)
+	(line
+		(name "")
+		(start 50.5 22)
+		(end 50.5 5.5)
+	)
+	(tbtext "Title"
+		(name "")
+		(pos 122 21.5)
+		(font
+			(size 1 1)
+		)
+		(justify top)
+	)
+	(tbtext "${TITLE}"
+		(name "")
+		(pos 121.5 17.5)
+		(font
+			(size 2.5 3) bold)
+	)
+	(tbtext "${COMPANY}"
+		(name "")
+		(pos 3 23)
+		(font
+			(size 2 2) bold)
+		(justify right bottom)
+	)
+	(tbtext "Author"
+		(name "")
+		(pos 50 21.5)
+		(font
+			(size 1 1)
+		)
+		(justify top)
+	)
+	(tbtext "${COMMENT1}"
+		(name "")
+		(pos 49.5 18)
+		(font
+			(size 2 2)
+		)
+		(comment "Author name")
+	)
+	(tbtext "${COMMENT2}"
+		(name "")
+		(pos 49.5 15)
+		(font
+			(size 1.25 0) italic)
+		(comment "Author subtitle")
+	)
+	(tbtext "License: ${COMMENT3}"
+		(name "")
+		(pos 121.5 10.75)
+		(font
+			(size 2 2)
+		)
+	)
+	(tbtext "${ISSUE_DATE}"
+		(name "")
+		(pos 26.5 10.75)
+		(font
+			(size 2 2)
+		)
+		(justify center)
+	)
+	(tbtext "Rev ${REVISION}"
+		(name "")
+		(pos 38.5 7)
+		(justify center)
+	)
+	(tbtext "Sheet ${#}/${##}"
+		(name "")
+		(pos 14.5 7)
+		(justify center)
+	)
+	(tbtext "Size"
+		(name "")
+		(pos 122.25 5)
+		(font
+			(size 1 1)
+		)
+		(justify top)
+	)
+	(tbtext "${PAPER}"
+		(name "")
+		(pos 110.5 4)
+		(justify center)
+	)
+	(tbtext "${FILENAME}"
+		(name "")
+		(pos 97.5 7)
+	)
+	(tbtext "${KICAD_VERSION}"
+		(name "")
+		(pos 121.5 7)
+	)
+	(tbtext "${COMMENT4}"
+		(name "")
+		(pos 97.5 4)
+		(font
+			(size 1.25 0)
+		)
+	)
+)
